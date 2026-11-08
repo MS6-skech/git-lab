@@ -8,7 +8,7 @@ with a decision threshold and prints the confusion matrix, precision, recall,
 F1 score and the attack type the model misses most.
 
 The report it prints is wrong. In this lab you fix it while practising the
-whole Git and GitHub workflow. Follow the assignment sheet mission by mission.
+whole Git and GitHub workflow. Follow the assignment sheet on Moodle.
 
 ## Project structure
 
@@ -17,13 +17,6 @@ ids_eval.py          # prediction and evaluation functions
 main.py              # prints the evaluation report
 data/flows.csv       # labelled flows with model predictions (synthetic data)
 tests/               # tests for ids_eval.py (do not edit)
-tools/check.py       # checks your progress and creates your submission file (do not edit)
-```
-
-Check your progress at any time with:
-
-```
-python tools/check.py
 ```
 
 ## Author
