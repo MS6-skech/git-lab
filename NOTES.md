@@ -1,0 +1,1 @@
+Classification is a supervised machine learning task in which a model learns from labeled examples to assign new data points to one of a set of predefined categories, such as labeling a network flow as “attack” or “normal.”
