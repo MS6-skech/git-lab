@@ -29,7 +29,7 @@ def confusion_matrix(labels, predictions):
 
 
 def precision(cm):
-    flagged = cm["tp"] + cm["fn"]
+    flagged = cm["tp"] + cm["fp"]
     return cm["tp"] / flagged if flagged else 0.0
 
 
