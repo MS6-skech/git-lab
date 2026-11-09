@@ -21,4 +21,4 @@ tests/               # tests for ids_eval.py (do not edit)
 
 ## Author
 
-<!-- Replace this line with your full name -->
+Full Name: Mohamad El Sayed
