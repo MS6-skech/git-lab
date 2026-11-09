@@ -56,5 +56,5 @@ def most_missed_attack(flows, threshold=0.5):
             missed[flow["attack_type"]] += 1
     if not missed:
         return None, 0
-    worst = min(missed, key=missed.get)
+    worst = max(missed, key=missed.get)
     return worst, missed[worst]
