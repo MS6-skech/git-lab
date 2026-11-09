@@ -7,7 +7,8 @@ from ids_eval import (confusion_matrix, f1_score, most_missed_attack,
                       precision, predict, recall)
 
 DATA_FILE = Path(__file__).parent / "data" / "flows.csv"
-THRESHOLD = 0.6 
+THRESHOLD = 0.4  # catch more attacks
+
 
 def load_flows(path):
     flows = []
